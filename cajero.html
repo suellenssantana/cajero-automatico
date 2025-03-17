@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automatico</title>
+    <link rel="shortcut icon" href="./assets/img/atm-machine-icon-vector.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/stylesCajero.css">
+    
+    
+</head>
+<body>
+    <div class="cajero">
+        <h2>Cajero Automatico</h2>
+        <label for="cuentaSeleccionada">Seleccione una cuenta:</label>
+        <select id="cuentaSeleccionada">
+            <option value="Mali">Mali</option>
+            <option value="Gera">Gera</option>
+            <option value="Maui">Maui</option>
+        </select>
+        <button onclick="seleccionarCuenta()">Ingresar</button>
+        <div class="pantalla" id="pantalla"></div>
+    </div>
+
+    <footer class="footer">
+        <div id="pie"> <p>Desarrollado por Suellen Santana</p> © 2025 - Todos los derechos reservados.</div>
+    </footer>
+
+    <script src="assets/scriptCajero.js"></script>
+
+</body>
+</html>
